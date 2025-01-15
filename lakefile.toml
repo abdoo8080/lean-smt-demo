@@ -1,0 +1,10 @@
+name = "Demo"
+defaultTargets = ["Demo"]
+
+[[lean_lib]]
+name = "Demo"
+
+[[require]]
+name = "smt"
+scope = "ufmg-smite"
+rev = "main"
